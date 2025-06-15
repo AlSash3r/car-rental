@@ -1,0 +1,29 @@
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 124px;
+}
+
+.nextButton {
+    font-family: "Manrope", sans-serif;
+    width: 160px;
+    height: 44px;
+    padding: 0 24px;
+    border-radius: 12px;
+    border: 2px solid #3470ff;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #101828;
+    cursor: pointer;
+    transition: border-color 0.25s ease, background-color 0.25s ease;
+}
+
+.nextButton:hover {
+    border-color: #0b44cd;
+    background-color: rgba(11, 68, 205, 0.05);
+}
+
+.nextButton:focus {
+    outline: none; }

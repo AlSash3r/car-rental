@@ -1,0 +1,33 @@
+.heading {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #101828;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.featureList {
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.featureItem {
+    display: flex;
+    align-items: center;
+}
+
+.featureText {
+    margin: 0;
+    margin-left: 8px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #101828; 
+}

@@ -1,0 +1,108 @@
+.cardContainer {
+    width: 276px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.thumbBox {
+    position: relative;
+    width: 100%;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.carImage {
+    width: 276px;
+    height: 268px;
+    border-radius: 14px;
+    object-fit: cover;
+}
+
+.favControl {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    z-index: 2;
+    outline: none;
+}
+
+.favIcon {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.2s ease;
+}
+
+.favIcon:hover {
+    color: #3470ff;
+}
+
+.favIconActive {
+    font-size: 24px;
+    color: #3470ff;
+}
+
+.titleBlock {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 11px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.carName {
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #101828;
+}
+
+.modelHighlight {
+    color: #3470ff;
+}
+
+.metaInfo {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33333;
+    color: #8d929a;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.ctaButton {
+    font-family: "Manrope", sans-serif;
+    background: #3470ff;
+    border-radius: 12px;
+    width: 276px;
+    height: 44px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 28px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ctaButton:hover {
+    background: #0b44cd;
+    color: #fff;
+}
+
+.ctaButton:focus {
+    outline: none; 
+}

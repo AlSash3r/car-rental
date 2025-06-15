@@ -1,0 +1,68 @@
+# dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# production
+build/
+dist/
+dist-ssr/
+.vite/
+
+# env files
+.env
+.env.local
+.env.*.local
+
+# logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# testing
+coverage/
+jest.config.js
+jest.setup.js
+
+# IDEs and editors
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Mac system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# VSCode backup
+*.code-workspace
+
+# typescript
+*.tsbuildinfo
+
+# eslint / prettier
+.eslintcache
+.prettiercache
+
+# redux devtools
+redux-devtools-extension/
+
+# optional local configs
+*.local
+
+# vite preview cache
+.cache/

@@ -1,0 +1,86 @@
+.formWrapper {
+    border: 1px solid #dadde1;
+    border-radius: 10px;
+    padding: 32px;
+    width: 640px;
+}
+
+.formHeading {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #101828;
+    margin-bottom: 8px;
+}
+
+.formSubtitle {
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #8d929a;
+    margin-bottom: 24px;
+}
+
+.formBox {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 576px;
+    align-items: center;
+}
+
+.formGroup {
+    background: #f7f7f7;
+    border-radius: 12px;
+    padding: 12px 20px;
+}
+
+.formGroup:last-of-type {
+    margin-bottom: 24px;
+}
+
+.formInput {
+    padding: 0;
+    width: 536px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #8d929a;
+    font-family: "Manrope", sans-serif;
+    border: none;
+    outline: none;
+    background: #f7f7f7;
+}
+
+.formError {
+    font-size: 10px;
+}
+
+.formTextarea {
+    resize: none;
+}
+
+.formButton {
+    font-family: "Manrope", sans-serif;
+    border-radius: 12px;
+    padding: 12px 51px;
+    width: 156px;
+    height: 44px;
+    background: #3470ff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.formButton:hover {
+    background: #0b44cd;
+}
+
+button:focus {
+    outline: none;
+}

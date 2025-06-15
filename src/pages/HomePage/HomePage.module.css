@@ -1,0 +1,54 @@
+.heading {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.2;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.subheading {
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33333;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.viewBtn {
+    font-family: "Manrope", sans-serif;
+    width: 276px;
+    height: 44px;
+    background: #3470ff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #fff;
+    border: none;
+    cursor: pointer
+}
+
+.viewBtn:hover {
+    background: #0b44cd;
+}
+
+.viewBtn:focus {
+    outline: none;
+}
+.bgWrapper {
+    background-image: url("/Background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 436px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}

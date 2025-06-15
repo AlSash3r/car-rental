@@ -1,0 +1,35 @@
+.specContainer {
+    margin: 0;
+}
+
+.heading {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #101828;
+    margin-bottom: 20px;
+}
+
+.specList {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.specItem {
+    display: flex;
+    align-items: center;
+}
+
+.specText {
+    margin-left: 8px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #101828; 
+}

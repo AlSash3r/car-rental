@@ -1,0 +1,31 @@
+.errorWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-family: "Manrope", sans-serif;
+}
+
+.errorTitle {
+    font-size: 28px;
+    font-weight: bold;
+    color: #101828;
+}
+
+.errorText {
+    font-size: 16px;
+    color: #8d929a;
+    margin-bottom: 20px;
+}
+
+.homeLink {
+    font-size: 18px;
+    color: #3470ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.homeLink:hover {
+    color: #0b44cd; }

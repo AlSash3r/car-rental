@@ -1,0 +1,25 @@
+.detailsContainer {
+    margin-top: 84px;
+    margin-bottom: 104px;
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+}
+
+.mediaSection {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.imagePreview {
+    border-radius: 19px;
+    width: 640px;
+    height: 512px;
+}
+
+.infoGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 110px; 
+}

@@ -1,0 +1,21 @@
+.pickerWrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    left: 10px;
+    color: #8d929a;
+    font-size: 16px;
+}
+
+.input {
+    width: 100%;
+    padding: 8px 12px 8px 32px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    color: #101828; }

@@ -1,0 +1,89 @@
+.wrapper {
+    width: 488px;
+    margin-bottom: 68px;
+    margin-top: 20px;
+}
+
+.titleRow {
+    width: 488px;
+    height: 32px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.name {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33333;
+    color: #101828;
+    margin: 0;
+    margin-right: 16px;
+}
+
+.identifier {
+    font-family: "Manrope", sans-serif;
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #8d929a;
+}
+
+.infoBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.locationGroup {
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #101828;
+    margin-bottom: 16px;
+}
+
+.location {
+    font-family: "Manrope", sans-serif;
+    margin: 0;
+    margin-left: 2px;
+    margin-right: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #101828;
+}
+
+.mileage {
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #101828;
+    margin: 0;
+}
+
+.price {
+    margin: 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33333;
+    color: #3470ff;
+    font-family: "Manrope", sans-serif;
+    margin-bottom: 32px;
+}
+
+.description {
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #101828;
+    font-family: "Manrope", sans-serif;
+}
