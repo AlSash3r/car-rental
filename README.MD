@@ -1,8 +1,8 @@
-#🚗 Car Rental Platform
-##🌟 About the Project
+# 🚗 Car Rental Platform
+## 🌟 About the Project
 The Car Rental Platform is a modern web application that makes finding and renting cars effortless. Users can explore various vehicles, apply filters based on preferences like brand, price, and mileage, and view in-depth details for each car. Built with React, Redux Toolkit, and React Hook Form, this app ensures a smooth and efficient experience.
 
-##🚀 Features
+## 🚀 Features
 
 🔹 Extensive Car Catalog – Browse through available rental vehicles.
 
@@ -18,7 +18,7 @@ The Car Rental Platform is a modern web application that makes finding and renti
 
 🔹 Favorites List – Save cars to revisit later.
 
-##🛠 Installation & Setup
+## 🛠 Installation & Setup
 
 To run the project locally, follow these simple steps:
 
