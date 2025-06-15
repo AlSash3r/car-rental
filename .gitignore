@@ -2,18 +2,15 @@
 node_modules/
 .pnp/
 .pnp.js
-
 # Production builds
 build/
 dist/
 dist-ssr/
 .vite/
-
 #Environment files
 .env
 .env.local
 .env.*.local
-
 #Logs
 logs/
 *.log
@@ -22,12 +19,10 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
 #Testing
 coverage/
 jest.config.js
 jest.setup.js
-
 # IDEs & Editors
 .vscode/
 !.vscode/extensions.json
@@ -37,32 +32,24 @@ jest.setup.js
 *.njsproj
 *.sln
 *.sw?
-
 # macOS system files
 .DS_Store
 .AppleDouble
 .LSOverride
-
 # Windows system files
 Thumbs.db
 ehthumbs.db
 desktop.ini
-
 # VSCode backup
 *.code-workspace
-
 # TypeScript cache
 *.tsbuildinfo
-
 # ESLint & Prettier
 .eslintcache
 .prettiercache
-
-# 🔥 Redux DevTools
+#  Redux DevTools
 redux-devtools-extension/
-
 # Optional local configs
 *.local
-
 # Vite preview cache
 .cache/
